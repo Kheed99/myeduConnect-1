@@ -1,0 +1,98 @@
+/* src/App.css */
+
+body {
+  font-family: 'Sans-serif', Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: navy;
+  padding: 10px;
+  color: white;
+}
+
+.navbar-links li a:hover {
+  color: orange;
+}
+
+.about-section {
+  background: url('./images/about-bg.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+}
+
+.courses-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.course-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.course-card:hover {
+  transform: scale(1.05);
+}
+
+.course-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.course-name {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  padding: 10px;
+}
+
+.course-description {
+  font-size: 1rem;
+  color: #7f8c8d;
+  padding: 0 10px 10px;
+}
+
+.course-price {
+  font-size: 1.2rem;
+  color: #e67e22;
+  padding: 0 10px 10px;
+}
+
+.enroll-button {
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.enroll-button:hover {
+  background-color: #2980b9;
+}
