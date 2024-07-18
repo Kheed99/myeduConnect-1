@@ -1,21 +1,20 @@
-// src/components/Login.js
-
 import React from 'react';
 import './Login.css';
 
 const Login = () => {
   return (
-    <div className="login-container">
-      <form className="login-form">
+    <div className="login">
+      <form>
         <h2>Login</h2>
-        <label htmlFor="email">Email</label>
-        <input type="email" id="email" name="email" required />
-        <label htmlFor="password">Password</label>
-        <input type="password" id="password" name="password" required />
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" />
+        <label>Password</label>
+        <input type="password" placeholder="Enter your password" />
         <button type="submit">Login</button>
+        <p>Don't have an account? <a href="/signup">Sign Up</a></p>
       </form>
     </div>
   );
-}
+};
 
 export default Login;
