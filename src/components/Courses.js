@@ -1,97 +1,113 @@
 // src/components/Courses.js
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Courses.css';
 
-const coursesData = [
-  {
-    name: 'Mathematics',
-    description: 'Learn the fundamentals of mathematics.',
-    price: '$50',
-    image: '../images/mathematics.jpg',
-  },
-  {
-    name: 'Engineering Mathematics',
-    description: 'Advanced mathematics for engineering students.',
-    price: '$70',
-    image: '../images/engineering_mathematics.jpg',
-  },
-  {
-    name: 'Artificial Intelligence',
-    description: 'Explore the world of AI.',
-    price: '$100',
-    image: '../images/artificial_intelligence.jpg',
-  },
-  {
-    name: 'Blockchain',
-    description: 'Learn about blockchain technology.',
-    price: '$90',
-    image: '../images/blockchain.jpg',
-  },
-  {
-    name: 'Business Pitching',
-    description: 'Master the art of pitching your business ideas.',
-    price: '$60',
-    image: '../images/business_pitching.jpg',
-  },
-  {
-    name: 'Internet of Things',
-    description: 'Understand IoT and its applications.',
-    price: '$80',
-    image: '../images/internet_of_things.jpg',
-  },
-  {
-    name: 'Machine Learning',
-    description: 'Dive into machine learning concepts.',
-    price: '$110',
-    image: '../images/machine_learning.jpg',
-  },
-  {
-    name: 'Python Programming',
-    description: 'Learn Python programming from scratch.',
-    price: '$70',
-    image: '../images/python_programming.jpg',
-  },
-  {
-    name: 'Architectural Art',
-    description: 'Explore the beauty of architectural art.',
-    price: '$75',
-    image: '../images/architectural_art.jpg',
-  },
-  {
-    name: 'Cybersecurity',
-    description: 'Understand the essentials of cybersecurity.',
-    price: '$95',
-    image: '../images/cybersecurity.jpg',
-  },
-  {
-    name: 'Digital Marketing',
-    description: 'Learn digital marketing strategies.',
-    price: '$65',
-    image: '../images/digital_marketing.jpg',
-  },
-  {
-    name: 'Data Science',
-    description: 'Become a data science expert.',
-    price: '$120',
-    image: '../images/data_science.jpg',
-  },
-];
-
 const Courses = () => {
+  const courses = [
+    {
+      title: 'Mathematics',
+      description: 'Comprehensive mathematics course.',
+      image: '/images/mathematics.jpg',
+      price: '$50',
+      link: '/payment'
+    },
+    {
+      title: 'Engineering Mathematics',
+      description: 'Advanced mathematics for engineering.',
+      image: '/images/engineering_mathematics.jpg',
+      price: '$60',
+      link: '/payment'
+    },
+    {
+      title: 'Artificial Intelligence',
+      description: 'Introduction to AI concepts and applications.',
+      image: '/images/artificial_intelligence.jpg',
+      price: '$120',
+      link: '/payment'
+    },
+    {
+      title: 'Blockchain',
+      description: 'Learn the fundamentals of blockchain technology.',
+      image: '/images/blockchain.jpg',
+      price: '$100',
+      link: '/payment'
+    },
+    {
+      title: 'Business Pitching',
+      description: 'Learn how to pitch your business ideas effectively.',
+      image: '/images/business_pitching.jpg',
+      price: '$95',
+      link: '/payment'
+    },
+    {
+      title: 'Internet of Things (IoT)',
+      description: 'Explore the world of IoT and its applications.',
+      image: '/images/iot.jpg',
+      price: '$110',
+      link: '/payment'
+    },
+    {
+      title: 'Machine Learning',
+      description: 'Fundamentals of machine learning.',
+      image: '/images/machine_learning.jpg',
+      price: '$125',
+      link: '/payment'
+    },
+    {
+      title: 'Python Programming',
+      description: 'Master the basics of Python programming.',
+      image: '/images/python_programming.jpg',
+      price: '$80',
+      link: '/payment'
+    },
+    {
+      title: 'Architectural Art',
+      description: 'Learn the principles of architectural art.',
+      image: '/images/architectural_art.jpg',
+      price: '$70',
+      link: '/payment'
+    },
+    {
+      title: 'Cybersecurity',
+      description: 'Learn to protect systems and networks from cyber attacks.',
+      image: '/images/cybersecurity.jpg',
+      price: '$90',
+      link: '/payment'
+    },
+    {
+      title: 'Digital Marketing',
+      description: 'Introduction to digital marketing strategies.',
+      image: '/images/digital_marketing.jpg',
+      price: '$85',
+      link: '/payment'
+    },
+    {
+      title: 'Data Science',
+      description: 'Introduction to data science concepts and tools.',
+      image: '/images/data_science.jpg',
+      price: '$130',
+      link: '/payment'
+    }
+  ];
+
   return (
-    <div className="courses-container">
-      {coursesData.map((course, index) => (
-        <div key={index} className="course-card">
-          <img src={course.image} alt={course.name} className="course-image" />
-          <h3>{course.name}</h3>
-          <p>{course.description}</p>
-          <p className="course-price">{course.price}</p>
-          <button className="enroll-button">Enroll</button>
-        </div>
-      ))}
+    <div className="courses">
+      <h1>Our Courses</h1>
+      <div className="course-grid">
+        {courses.map((course, index) => (
+          <div key={index} className="course-card">
+            <img src={course.image} alt={course.title} className="course-image" />
+            <h3 className="course-title">{course.title}</h3>
+            <p className="course-description">{course.description}</p>
+            <p className="course-price">{course.price}</p>
+            <Link to={course.link} className="enroll-button">Enroll</Link>
+          </div>
+        ))}
+      </div>
     </div>
   );
-};
+}
 
 export default Courses;
