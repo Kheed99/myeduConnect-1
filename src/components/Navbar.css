@@ -102,8 +102,10 @@
 
     .navbar-buttons a {
         flex-direction: column; /* Stack icons and text vertically */
-        padding: 0.5rem;
+        padding: 0.4rem 0.5rem;
         margin-left: 0.5rem;
+        font-size: 0.8rem;
+        height: auto;
     }
 
     .navbar-buttons i {
@@ -112,6 +114,6 @@
     }
 
     .login-button {
-        min-width: 57px;
+        min-width: 45px;
     }
 }
