@@ -16,46 +16,64 @@ const Navbar = () => {
             <ul className="navbar-links">
                 <li>
                     <Link to="/">
-                        <i className="fas fa-home"></i> Home
+                        <span className="icon-text">
+                            <i className="fas fa-home"></i> Home
+                        </span>
                     </Link>
                 </li>
                 <li>
                     <Link to="/about">
-                        <i className="fas fa-info-circle"></i> About Us
+                        <span className="icon-text">
+                            <i className="fas fa-info-circle"></i> About Us
+                        </span>
                     </Link>
                 </li>
                 <li>
                     <Link to="/courses">
-                        <i className="fas fa-book"></i> Courses
+                        <span className="icon-text">
+                            <i className="fas fa-book"></i> Courses
+                        </span>
                     </Link>
                 </li>
                 <li>
                     <Link to="/lms">
-                        <i className="fas fa-chalkboard-teacher"></i> LMS
+                        <span className="icon-text">
+                            <i className="fas fa-chalkboard-teacher"></i> LMS
+                        </span>
                     </Link>
                 </li>
                 <li>
                     <Link to="/lmis">
-                        <i className="fas fa-tags"></i> LMIS
+                        <span className="icon-text">
+                            <i className="fas fa-tags"></i> LMIS
+                        </span>
                     </Link>
                 </li>
                 <li>
                     <Link to="/pricing">
-                        <i className="fas fa-tags"></i> Pricing
+                        <span className="icon-text">
+                            <i className="fas fa-tags"></i> Pricing
+                        </span>
                     </Link>
                 </li>
                 <li>
                     <Link to="/contact">
-                        <i className="fas fa-envelope"></i> Contact
+                        <span className="icon-text">
+                            <i className="fas fa-envelope"></i> Contact
+                        </span>
                     </Link>
                 </li>
             </ul>
             <div className="navbar-buttons">
                 <Link to="/signup" className="signup-button">
-                    <i className="fas fa-user-plus"></i> Sign Up
+                    <span className="icon-text">
+                        <i className="fas fa-user-plus"></i> Sign Up
+                    </span>
                 </Link>
                 <Link to="/login" className="login-button">
-                    <i className="fas fa-sign-in-alt"></i> Login
+                    <span className="icon-text">
+                        <i className="fas fa-sign-in-alt"></i> Login
+                    </span>
                 </Link>
             </div>
         </nav>

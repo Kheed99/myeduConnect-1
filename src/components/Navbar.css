@@ -7,6 +7,7 @@
     padding: 1rem 2rem;
     background-color: #002a55;
     font-family: 'Sans-serif';
+    flex-wrap: wrap; /* Allow wrapping if needed */
 }
 
 .navbar-logo img {
@@ -19,6 +20,8 @@
     display: flex;
     gap: 1rem;
     font-family: Arial, Helvetica, sans-serif;
+    flex-grow: 1; /* Allow links to grow and fill space */
+    justify-content: center; /* Center the links */
 }
 
 .navbar-links li {
@@ -30,6 +33,8 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     transition: background-color 0.3s;
+    display: flex;
+    align-items: center; /* Ensure icons and text are aligned horizontally by default */
 }
 
 .navbar-links a:hover {
@@ -37,9 +42,14 @@
     border-radius: 4px;
 }
 
-/* Spacing between navbar links and icons*/
+/* Spacing between navbar links and icons */
 .navbar-links i {
     margin-right: 8px;
+}
+
+.navbar-buttons {
+    display: flex;
+    align-items: center;
 }
 
 .navbar-buttons a {
@@ -51,13 +61,57 @@
     margin-left: 1rem;
     transition: background-color 0.3s;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center; /* Ensure icons and text are aligned horizontally by default */
 }
 
 .navbar-buttons a:hover {
     background-color: #d35400;
 }
 
-/* Spacing between navbar buttons and icons*/
+/* Spacing between navbar buttons and icons */
 .navbar-buttons i {
     margin-right: 8px;
+}
+
+/* Media query for screens with a max-width of 1420px */
+@media (max-width: 1420px) {
+    .navbar-links {
+        gap: 0.5rem; /* Reduce gap between links */
+    }
+
+    .navbar-buttons a {
+        padding: 0.5rem 0.5rem; /* Adjust padding */
+        margin-left: 0.5rem; /* Reduce margin */
+        white-space: nowrap; /* Prevent text wrapping */
+    }
+}
+
+/* Additional media query for screens with a max-width of 1320px */
+@media (max-width: 1320px) {
+    .icon-text {
+        display: flex;
+        flex-direction: column; /* Stack icons and text vertically */
+        align-items: center;
+    }
+
+    .navbar-links i {
+        margin-right: 0;
+        margin-bottom: 4px;
+    }
+
+    .navbar-buttons a {
+        flex-direction: column; /* Stack icons and text vertically */
+        padding: 0.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .navbar-buttons i {
+        margin-right: 0;
+        margin-bottom: 4px;
+    }
+
+    .login-button {
+        min-width: 57px;
+    }
 }
