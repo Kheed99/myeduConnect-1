@@ -1,0 +1,48 @@
+.hero {
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+    width: 100vw;
+    margin: -20px -20px 0 -20px;
+    box-sizing: border-box;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.cta-buttons .cta-button {
+    background-color: orange;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.cta-buttons .cta-button.secondary {
+    background-color: white;
+    color: orange;
+}
+
+.cta-buttons .cta-button:hover {
+    background-color: darkorange;
+}
+
+.cta-buttons .cta-button.secondary:hover {
+    background-color: #f2f2f2;
+}
