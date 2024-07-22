@@ -5,7 +5,7 @@ import './AboutSection.css';
 const AboutSection = () => {
     return (
         <section className="about-us">
-            <h1>eduConnect</h1>
+            <h2>eduConnect</h2>
             <p>
                 eduConnect is a revolutionary online learning platform that aims to provide personalized, secure, and
                 sustainable learning solutions to learners worldwide. Our platform leverages cutting-edge technologies
