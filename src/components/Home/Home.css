@@ -11,52 +11,6 @@ body {
     padding: 20px;
 }
 
-.features {
-    padding: 50px;
-    background-color: #fff;
-    text-align: center;
-}
-
-.features h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #ffa324;
-}
-
-.feature-cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.feature-card {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    width: 250px;
-    margin: 10px;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.feature-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.feature-card h3 {
-    font-size: 1.5rem;
-    color: navy;
-    padding: 10px;
-}
-
-.feature-card p {
-    font-size: 1rem;
-    color: #7f8c8d;
-    padding: 0 10px 10px;
-}
-
 .why-educonnect {
     text-align: center;
     padding: 50px;
