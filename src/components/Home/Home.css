@@ -11,34 +11,6 @@ body {
     padding: 20px;
 }
 
-.why-educonnect {
-    text-align: center;
-    padding: 50px;
-    background-color: #f9f9f9;
-}
-
-.why-educonnect h2 {
-    font-size: 2rem;
-    color: navy;
-}
-
-.why-educonnect p {
-    font-size: 1.2rem;
-    color: #7f8c8d;
-    margin-bottom: 20px;
-}
-
-.why-educonnect ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.why-educonnect ul li {
-    font-size: 1rem;
-    color: #7f8c8d;
-    margin-bottom: 10px;
-}
-
 .try-us-button {
     background-color: #ffa324;
     color: #fff;
