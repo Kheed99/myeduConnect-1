@@ -4,7 +4,6 @@ import './PartnersSection.css';
 const PartnersSection = () => {
     return (
         <section className="partners">
-            <h2>Our Partners</h2>
             <div className="partner-logos">
                 <img src="/images/partner1.png" alt="Partner 1" />
                 <img src="/images/partner2.png" alt="Partner 2" />

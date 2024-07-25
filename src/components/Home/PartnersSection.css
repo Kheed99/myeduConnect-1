@@ -1,0 +1,24 @@
+.partners {
+    text-align: center;
+    padding: 50px;
+    background-color: #e67e22;
+}
+
+.partner-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.partner-logos img {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    transition: transform 0.3s, filter 0.3s;
+    filter: brightness(0.8);
+}
+
+.partner-logos img:hover {
+    transform: scale(1.1);
+    filter: brightness(1);
+}
