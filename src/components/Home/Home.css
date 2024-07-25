@@ -11,21 +11,6 @@ body {
     padding: 20px;
 }
 
-.try-us-button {
-    background-color: #ffa324;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    text-decoration: none;
-}
-
-.try-us-button:hover {
-    background-color: #e6891c;
-}
-
 .how-it-works {
     text-align: center;
     padding: 50px;
