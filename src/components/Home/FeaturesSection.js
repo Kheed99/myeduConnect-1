@@ -1,4 +1,3 @@
-// src/components/Home/FeaturesSection.js
 import React from 'react';
 import './FeaturesSection.css';
 

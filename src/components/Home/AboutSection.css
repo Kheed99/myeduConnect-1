@@ -1,12 +1,12 @@
 .about-us {
-    max-width: 900px;
+    max-width: 1100px;
     text-align: center;
     padding: 60px 20px;
     color: #002a55;
-    background-color: #f7f9fc; /* Light background color */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    margin: 40px auto; /* Add margin to separate from other sections */
+    background-color: #f7f9fc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
 }
 
 .about-us h2 {

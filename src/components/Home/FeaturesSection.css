@@ -2,6 +2,8 @@
     padding: 60px 20px;
     text-align: center;
     background-color: #ffffff;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .features-section h2 {
@@ -22,7 +24,7 @@
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
-    width: 250px;
+    width: 200px;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -36,7 +38,7 @@
     width: 60px;
     height: 60px;
     margin-bottom: 20px;
-    filter: invert(24%) sepia(96%) saturate(1186%) hue-rotate(186deg) brightness(94%) contrast(101%); /* Convert to blue */
+    filter: invert(24%) sepia(96%) saturate(1186%) hue-rotate(186deg) brightness(94%) contrast(101%);
 }
 
 .feature-title {

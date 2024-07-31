@@ -8,7 +8,6 @@ import WhyEduConnectSection from './WhyEduConnectSection';
 import HowItWorksSection from './HowItWorksSection';
 import TestimonialsSection from './TestimonialsSection';
 import PartnersSection from './PartnersSection';
-import QuickLinksSection from './QuickLinksSection';
 import Footer from '../Footer';
 
 const Home = () => {
@@ -21,7 +20,6 @@ const Home = () => {
             <HowItWorksSection />
             <TestimonialsSection />
             <PartnersSection />
-            <QuickLinksSection />
             <Footer />
         </div>
     );

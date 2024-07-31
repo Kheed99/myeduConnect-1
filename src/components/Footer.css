@@ -1,0 +1,97 @@
+.footer-background {
+    background-color: #002a55;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 30px;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+.footer-about-us {
+    background-color: transparent;
+    color: #ffffff;
+    flex: 1;
+    margin-bottom: 20px;
+    min-width: 250px;
+}
+
+.footer-about-us h2 {
+    font-size: 1.5rem;
+    color: #ffa324;
+    margin-bottom: 20px;
+}
+
+.footer-about-us p {
+    margin: 5px 0;
+}
+
+.social-media-icons {
+    display: flex;
+    margin-top: 20px;
+}
+
+.social-media-icons i {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #ffffff;
+    transition: transform 0.3s;
+}
+
+.social-media-icons i:hover {
+    transform: scale(1.2);
+}
+
+.information-link {
+    flex: 1;
+    color: #ffffff;
+    min-width: 200px;
+}
+
+.information-link h2 {
+    font-size: 1.5rem;
+    color: #ffa324;
+    margin-bottom: 20px;
+}
+
+.information-link ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.information-link ul li {
+    margin-bottom: 10px;
+}
+
+.information-link ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.information-link ul li a:hover {
+    color: #ffa324;
+}
+
+.contact-details {
+    flex: 1;
+    color: #ffffff;
+    min-width: 200px;
+}
+
+.contact-details h2 {
+    font-size: 1.5rem;
+    color: #ffa324;
+    margin-bottom: 20px;
+}
+
+.contact-details p {
+    margin-bottom: 10px;
+}

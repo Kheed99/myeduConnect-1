@@ -1,4 +1,3 @@
-// components/Home/AboutSection.js
 import React from 'react';
 import './AboutSection.css';
 
