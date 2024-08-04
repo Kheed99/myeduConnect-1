@@ -1,0 +1,28 @@
+.lms-landing {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.lms-landing h2 {
+    color: #002a55;
+}
+
+.lms-landing ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lms-landing li {
+    margin: 10px 0;
+}
+
+.lms-landing a {
+    color: #ffa324;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lms-landing a:hover {
+    text-decoration: underline;
+}
