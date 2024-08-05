@@ -10,6 +10,7 @@ import Pricing from './components/Pricing';
 import Contact from './components/Contact';
 import Signup from './components/Signup';
 import Login from './components/Login';
+import Footer from './components/Footer';
 import LMSLandingPage from './components/LMS/LMSLandingPage';
 import CourseOverview from './components/LMS/Dashboard/Overview/CourseOverview';
 import ProfileSettings from './components/LMS/Dashboard/ProfileSettings/ProfileSettings';
@@ -32,6 +33,7 @@ function App() {
                     <Route path="/signup" element={<Signup />} />
                     <Route path="/login" element={<Login />} />
                 </Routes>
+                <Footer />
             </div>
         </Router>
     );
