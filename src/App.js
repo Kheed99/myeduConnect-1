@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import Home from './components/Home/Home';
 import About from './components/About';
 import Courses from './components/Courses';
-import LMS from './components/LMS';
 import LMIS from './components/LMIS';
 import Pricing from './components/Pricing';
 import Contact from './components/Contact';

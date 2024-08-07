@@ -1,3 +1,32 @@
+.lms-dashboard {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.sidebar-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.lms-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.dashboard-main-content {
+    padding-bottom: 20px;
+}
+
+.partners-section {
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f8f8;
+    margin-top: auto;
+}
+
 .lms-landing {
     padding: 20px;
     background-color: #f9f9f9;
